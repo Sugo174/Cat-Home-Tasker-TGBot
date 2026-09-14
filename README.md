@@ -16,6 +16,26 @@ A Telegram bot that turns household chores into a shared game. Household members
 - SOCKS5 proxy support
 - SQLite database storage
 
+## Screenshots
+
+### Main Interface
+
+| Language Selection | Main Menu | User Profile |
+|---|---|---|
+| <img src="media/screenshots/language-selection.png" alt="Language selection" width="260"> | <img src="media/screenshots/main-menu.png" alt="Main menu" width="260"> | <img src="media/screenshots/user-profile.png" alt="User profile" width="260"> |
+
+### Tasks and Progress
+
+| Active Tasks | Custom Task | Completed Task History |
+|---|---|---|
+| <img src="media/screenshots/active-tasks.png" alt="Active household tasks" width="260"> | <img src="media/screenshots/custom-task.png" alt="Custom task creation" width="260"> | <img src="media/screenshots/completed-task-history.png" alt="Completed task history" width="260"> |
+
+### Household and Administration
+
+| Household | Changelog | Administration Panel |
+|---|---|---|
+| <img src="media/screenshots/household.png" alt="Household information" width="260"> | <img src="media/screenshots/changelog.png" alt="Bot changelog" width="260"> | <img src="media/screenshots/admin-panel.png" alt="Administration panel" width="260"> |
+
 ## Technology
 
 - Python
