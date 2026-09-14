@@ -210,6 +210,7 @@ async def show_admin_houses(
 
 @router.message(
     AdminState.waiting_for_password,
+    ~F.text.startswith("/"),
 )
 async def admin_password_check(
     message: Message,
@@ -906,6 +907,7 @@ async def start_admin_user_xp_edit(
 
 @router.message(
     AdminEditXP.waiting_for_xp,
+    ~F.text.startswith("/"),
 )
 async def save_admin_user_xp(
     message: Message,
@@ -1654,6 +1656,7 @@ async def start_changelog_add(
 
 @router.message(
     AdminChangelog.waiting_for_russian,
+    ~F.text.startswith("/"),
 )
 async def add_changelog_russian(
     message: Message,
@@ -1719,6 +1722,7 @@ async def add_changelog_russian(
 
 @router.message(
     AdminChangelog.waiting_for_english,
+    ~F.text.startswith("/"),
 )
 async def add_changelog_english(
     message: Message,
@@ -1899,6 +1903,7 @@ async def start_changelog_edit(
 
 @router.message(
     AdminChangelogEdit.waiting_for_russian,
+    ~F.text.startswith("/"),
 )
 async def edit_changelog_russian(
     message: Message,
@@ -1964,6 +1969,7 @@ async def edit_changelog_russian(
 
 @router.message(
     AdminChangelogEdit.waiting_for_english,
+    ~F.text.startswith("/"),
 )
 async def edit_changelog_english(
     message: Message,
