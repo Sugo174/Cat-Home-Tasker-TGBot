@@ -122,6 +122,12 @@ Enter the password configured in `ADMIN_PASSWORD` to open the administration pan
 
 The bot creates a local SQLite database automatically. Database files are excluded from Git and should be backed up separately when the bot is used in production.
 
+## Changelog
+
+See [CHANGELOG.md](CHANGELOG.md) for the complete version history.
+
+The current version is **1.0.5**.
+
 ## License
 
 This project is distributed under the [MIT License](LICENSE).
