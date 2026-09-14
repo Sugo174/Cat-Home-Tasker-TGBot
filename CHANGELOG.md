@@ -4,6 +4,12 @@ All notable changes to Cat Home Tasker Bot are documented in this file.
 
 The project uses [Semantic Versioning](https://semver.org/).
 
+## [1.0.6] - 2026-09-14
+
+### Fixed
+
+- Prevented bot commands from being processed as passwords, experience values, or changelog text.
+
 ## [1.0.5] - 2026-09-14
 
 ### Changed
@@ -64,4 +70,5 @@ The project uses [Semantic Versioning](https://semver.org/).
 - Household information with summaries of members and their profiles.
 - Administration panel for viewing and deleting households, removing users, changing user experience points, and clearing household history.
 
+[1.0.6]: https://github.com/Sugo174/Cat-Home-Tasker-TGBot/releases/tag/v1.0.6
 [1.0.5]: https://github.com/Sugo174/Cat-Home-Tasker-TGBot/releases/tag/v1.0.5

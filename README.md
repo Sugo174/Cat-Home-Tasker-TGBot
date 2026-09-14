@@ -126,7 +126,7 @@ The bot creates a local SQLite database automatically. Database files are exclud
 
 See [CHANGELOG.md](CHANGELOG.md) for the complete version history.
 
-The current version is **1.0.5**.
+The current version is **1.0.6**.
 
 ## License
 
