@@ -1,5 +1,7 @@
 # Cat Home Tasker Bot
 
+[![Python tests](https://github.com/Sugo174/Cat-Home-Tasker-TGBot/actions/workflows/tests.yml/badge.svg)](https://github.com/Sugo174/Cat-Home-Tasker-TGBot/actions/workflows/tests.yml)
+
 A Telegram bot that turns household chores into a shared game. Household members can create and complete tasks, earn experience points, track progress, and manage their profiles through a Russian or English interface.
 
 ## Features
