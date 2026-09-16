@@ -64,6 +64,10 @@ A Telegram bot that turns household chores into a shared game. Household members
 ├── requirements.txt      # Python dependencies
 ├── .env.example          # Environment configuration example
 ├── start_bot.bat         # Windows startup script
+├── assets/
+│   └── cat-home-tasker.ico       # Desktop shortcut icon
+├── create_desktop_shortcut.ps1   # Creates the Windows desktop shortcut
+├── setup_windows.bat             # Runs the shortcut setup script
 └── README.md
 ```
 
@@ -130,6 +134,16 @@ On Windows, you can also use:
 start_bot.bat
 ```
 
+### Windows Desktop Shortcut
+
+After installing the dependencies and configuring `.env`, Windows users can create a desktop shortcut:
+
+1. Run `setup_windows.bat` once from the project folder.
+2. A **Cat Home Tasker** shortcut with the application icon will appear on the desktop.
+3. Use this shortcut to start the bot.
+
+The shortcut starts `start_bot.bat` from the correct project folder.
+
 ## Administration
 
 Send the following command to the bot:
@@ -148,7 +162,7 @@ The bot creates a local SQLite database automatically. Database files are exclud
 
 See [CHANGELOG.md](CHANGELOG.md) for the complete version history.
 
-The current version is **1.0.6**.
+The current version is **1.0.7**.
 
 ## License
 
