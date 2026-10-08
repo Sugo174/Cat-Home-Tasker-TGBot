@@ -1,4 +1,4 @@
 @echo off
 cd /d "%~dp0"
-python bot.py
+py -3.14 bot.py
 pause
